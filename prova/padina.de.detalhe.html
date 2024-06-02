@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<!-- ... -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<style>
+  /* ... */
+  .product-card { margin: 2px; }
+  .product-card img { width: 100%; }
+  .product-card .card-body { text-align: center; }
+  .product-card .card-title { font-weight: bold; }
+  .product-card .card-text { color: #555; }
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Sabores do Oriente</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse"
+   data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Início</a>
+      </li>
+      
+      <form action="/search" method="get">
+        <input type="text" name="q" placeholder="Digite sua pesquisa...">
+        <button type="submit">Pesquisar</button>
+      </form>
+
+    </ul>
+    <form action="/search" method="get">
+      <input type="text" name="q" placeholder="Digite sua pesquisa...">
+      <button type="submit">Pesquisar</button>
+    </form>
+  </div>
+</nav>
+
+
+
+<div class="container">
+  <div class="row">
+    
+    <div class="col-md-4">
+      <div class="card product-card">
+        <img src="/ramen-1024x768.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ramen (ラーメン)</h5>
+          <p class="card-text"> que é Lamen?
+            O Lamen é uma receita originalmente chinesa 
+            que se popularizou no oriente e rapidamente
+             chegou ao Japão (que hoje é conhecido como
+              “a terra do Lamen”). Por ser uma alternativa
+               barata e fácil de produzir, essa receita
+                conquistou o país no período pós Segunda Guerra Mundial.
+            Você a encontra em restaurantes estrelados, 
+            como também em estações de trem e barraquinhas 
+            de rua em todas as cidades japonesas
+            A receita de Lamen (ou Ramen, que é a
+             forma como se pronuncia o nome) é
+              simples e consiste em um bowl de 
+              caldo quente preenchido com macarrão
+               oriental e outros ingredientes. </p>
+          <a href="/pagina,de,detalhes.html" class="btn btn-primary">comprar</a>
+        </div>
+      </div>
+    </div>   
+    <!-- ... -->
+    <div class="col-md-4">
+      <div class="card product-card">
+        <img src="/gyoza-1024x768.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Gyoza (ギョーザ)</h5>
+          <p class="card-text">Dizem que o guioza foi levado para o Japão pelos 
+            soldados durante a Segunda Guerra Mundial. No pós-guerra, a iguaria
+             ganhou notoriedade, porque ajudou os moradores a sobreviverem, tanto
+              consumindo para não passar fome, quanto vendendo guiozas
+            Na época, era mais fácil se obter farinha do que arroz, importante 
+            ingrediente da culinária japonesa.
+            Para fazer a receita ter maior rendimento, a massa se tornou mais
+             fina do que a servida em restaurantes chineses originalmente. </p>
+          <a href="/pagina.de.vemdas.html" class="btn btn-primary">comprar</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card product-card">
+          <img src="/Yakisoba-1024x677.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Yakisoba (焼きそば)</h5>
+            <p class="card-text"> Yakisoba significa “macarrão frito em molho”. Sem dúvida,
+               uma definição bastante precisa de como é esse prato, que é um dos mais famosos
+                do mundo. Assim, de forma resumida, este carboidrato é refogado junto com 
+                diversos ingredientes, como legumes e carne
+              Parte do seu sucesso, é que ele pode ser feito de várias maneiras, portanto,
+               dá uma boa margem para o chef inovar e criar. Muitos já provaram essa iguaria,
+                afinal, ela está presente em diversos países, no entanto, poucos conhecem a
+                 sua origem, que você vai ver a seguir.</p>
+            <a href="/pagina,de,detalhes.html" class="btn btn-primary">comprar</a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="/Okonomiyaki-1024x768.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Okonomiyaki (お好み焼き)</h5>
+            <p class="card-text">A okonomiyaki pode não ser o mais fotogênico dos pratos, mas deixará você se 
+              sentindo cheio, aquecido e satisfeito. A okonomiyaki começa como uma saborosa
+               panqueca feita de repolho picado misturado com farinha, ovo e um pouco de caldo
+                dashi. Você pode, em seguida, recheá-la com carne ou frutos do mar e com
+                 diversas outras coberturas, criando um dos alimentos mais reconfortantes 
+                 de todo o Japão. </p>
+            <a href="/pagina,de,detalhes.html" class="btn btn-primary">comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="/Yakitori-1024x680.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Yakitori (焼き鳥)</h5>
+            <p class="card-text">Os restaurantes yakitori servem uma grande variedade de alimentos em porções 
+              pequenas. Eles vão de barracas de cerveja informais e barulhentas, para beber 
+              em pé, frequentadas por profissionais assalariados, a restaurantes mais
+               sofisticados. O yakitori pode ser degustado como um lanche rápido antes do
+                jantar, com alguns espetos de frango e cerveja, ou como uma refeição completa, 
+                com todos os tipos de pratos deliciosos e surpreendentes.</p>
+            <a href="/pagina,de,detalhes.html" class="btn btn-primary">comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="/Karaage-1024x683.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Karaage (から揚げ)</h5>
+            <p class="card-text">O karaage é um prato onde os ingredientes são 
+              mergulhados em uma massa e frito em óleo. Os ingredientes são 
+              antecipadamente marinados e cobertos com farinha ou katakuriko.
+               Logo após, são fritos. O amido de batata (ou katakuriko) é
+                comumente mais utilizado no revestimento para fritar, ao invés
+                 do tradicional amido de milho. Desta forma, o karaage adquire
+                  uma textura agradável sentida, principalmente, na mordida.</p>
+            <a href="/pagina,de,detalhes.html" class="btn btn-primary">comprar</a>
+          </div>
+        </div>
+      </div>
+
+      <style>
+        /* ... */
+        .product-details img { transition: transform 0.3s ease; }
+        .product-details img:hover { transform: scale(1.1); }
+        .blink { animation: blinker 1s linear infinite; }
+        @keyframes blinker { 50% { opacity: 0; } }
+      </style>
+      </head>
+      <body></body>
+      
+        
+        <button class="btn btn-success blink">comprar tudo</button>
+        <!-- Formulário de promoções -->
+        <form>
+          <input type="email" placeholder="Seu e-mail">
+          <input type="checkbox"> Aceito os termos de uso
+          <button type="submit">Enviar</button>
+        </form>
+
+
+      </div><button><a href="/pagina.do.cardapio.html">voltar</a></button> 
+
+</div>
+</div>
+</body>
+</html>
